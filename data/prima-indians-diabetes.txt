@@ -1,0 +1,10 @@
+Indian diabetes dataset features
+1. Pregnancies
+2. Glucose
+3. Blood pressure
+4. Skin thickness
+5. Insulin
+6. BMI
+7. Diabetes pedrigree function
+8. Age
+9. Outcome/Class
