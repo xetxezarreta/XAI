@@ -35,9 +35,9 @@ Local Interpretable Model-Agnostic Explanations:
 
 It doesn't matter what algorithms to use since it treats models like black boxes (Model-Agnostic)
 
-## Lime For Time (SHapley Additive exPlanations)
+## LIME For Time (SHapley Additive exPlanations)
 https://github.com/emanuel-metzenthin/Lime-For-Time  
-Work in progress..
+LIME-For-Time is a LIME algorithm applycation (LIME - Local Interpretable Model-Agnostic Explanations) developed by Marco Tulio Ribeiro, Sameer Singh and Carlos Guestrin to time series classification. The goal was to explain time series classification algorithms by highlighting the areas of the timeseries used by the classifier in its prediction. That way a user of the classification algorithm can determine if the algorithm can be trusted.
 
 ## SHAP (SHapley Additive exPlanations)
 https://github.com/slundberg/shap  
