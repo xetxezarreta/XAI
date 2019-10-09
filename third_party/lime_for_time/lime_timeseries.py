@@ -8,12 +8,7 @@ import math
 class LimeTimeSeriesExplanation(object):
     """Explains time series classifiers."""
 
-    def __init__(self,
-                 kernel_width=25,
-                 verbose=False,
-                 class_names=None,
-                 feature_selection='auto',
-                 ):
+    def __init__(self, kernel_width=25, verbose=False, class_names=None, feature_selection='auto'):
         """Init function.
         Args:
             kernel_width: kernel width for the exponential kernel
