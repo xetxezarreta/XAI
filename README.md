@@ -2,11 +2,23 @@
 
 [Explainable AI (XAI)](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) refers to methods and techniques in the application of artificial intelligence technology (AI) such that the results of the solution can be understood by human experts. It contrasts with the concept of the "black box" in machine learning where even their designers cannot explain why the AI arrived at a specific decision.
 
+2 explainability methods:
+- **Local**: Explain how and why an specific prediction was made
+- **Global**: Explain how a model works overall
+
 2 types of interpretation:
 - **Local**: Explain how and why an specific prediction was made
 - **Global**: Explain how a model works overall
   - What in average your model care about and how they impact the outcome
+                                                  
+| Libraries       | References             | Global/Local  | Model-specific/Model-agnostic  |
+| --------------- | ---------------------- | ------------- | -------------------------------|
+| ELI5            | ref1                   | G/L           | MS/MA                          |
+| LIME            | ref2                   | L             | MA                             |
+| LIME For Time   | ref3                   | L             | MA                             |
+| SHAP            | ref4                   | G/L           | MS/MA                          |
 
+G = Global, L = Local, MS = Model-specific, MA = Model-agnostic
 
 ## ELI5 (Explain Like I’m 5)
 https://github.com/TeamHG-Memex/eli5  
