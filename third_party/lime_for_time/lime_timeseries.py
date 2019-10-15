@@ -1,8 +1,9 @@
-import numpy as np
+import numpy as np 
 import sklearn
 from lime import explanation
 from lime import lime_base
 import math
+
 
 
 class LimeTimeSeriesExplanation(object):
@@ -140,7 +141,8 @@ class LimeTimeSeriesExplanation(object):
                             tmp_series.iloc[index:(index + values_per_slice)]))
                 elif replacement_method == 'total_mean':
                     # use total mean as inactive
-                    tmp_series.iloc[index:(index + values_per_slice)] = np.mean(training_set.mean())
+                    mean = np.mean(training_set.mean())
+                    tmp_series.iloc[index:(index + values_per_slice)] = mean
             inverse_data.append(tmp_series)
         labels = classifier_fn(inverse_data)
         distances = distance_fn(data)
