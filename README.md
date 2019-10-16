@@ -11,12 +11,13 @@
 - **Global**: Explain how a model works overall
   - What in average your model care about and how they impact the outcome
                                                   
-| Libraries           | References             | Global/Local  | Model-specific/Model-agnostic  |
-| ------------------- | ---------------------- | ------------- | -------------------------------|
-| **ELI5**            | ref1                   | G/L           | MS/MA                          |
-| **LIME**            | ref2                   | L             | MA                             |
-| **LIME For Time**   | ref3                   | L             | MA                             |
-| **SHAP**            | ref4                   | G/L           | MS/MA                          |
+| Libraries           | References             | Global/Local  | Model-specific/Model-agnostic   |
+| ------------------- | ---------------------- | ------------- | ------------------------------- |
+| **ELI5**            | ref1                   | G/L           | MS/MA                           |
+| **LIME**            | ref2                   | L             | MA                              |
+| **LIME For Time**   | ref3                   | L             | MA                              |
+| **SHAP**            | ref4                   | G/L           | MS/MA                           |
+| **Interpret**       | ref5                   | G/L           | MS/MA                           |
 
 G = Global, L = Local, MS = Model-specific, MA = Model-agnostic
 
@@ -65,6 +66,9 @@ SHAP API
   - For Deep Learning models
 - Kernel Explainer
   - Model-agnostic explainer
+  
+### Interpret (InterpretML)
+https://github.com/microsoft/interpret
 
 ## References
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8466590
