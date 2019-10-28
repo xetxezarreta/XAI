@@ -4,7 +4,7 @@
 
 2 explainability methods:
 - **Model-specific (intrinsic)**: Model-specific interpretability methods are limited to specific model classes. Intrinsic methods are by definition model-specific.
-- **Model-agnostic (post-hoc)**: Model-agnostic methods are not tied to a particular type of ML model. Model-agnostic interpretationsare usually post-hoc. 
+- **Model-agnostic (post-hoc)**: Model-agnostic methods are not tied to a particular type of ML model. Model-agnostic interpretations are usually post-hoc. 
 
 2 types of interpretation:
 - **Local**: Explain how and why an specific prediction was made
